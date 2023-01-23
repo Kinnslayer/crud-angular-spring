@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 20,
+    "workbench.colorTheme": "Atom One Dark",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+}
