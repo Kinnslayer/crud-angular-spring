@@ -17,7 +17,7 @@ export class CoursesService {
     return this.httpClient.get<Course[]>(this.API)
     .pipe( // Antes de receber a informação, conseguir fazer a manipulação desses arquivos
       first(), // Fazer a requisição uma vez e fechar conexão
-      delay(5000),
+      delay(2000),
       tap(courses => console.log(courses)) // Verificar se está em funcionamento
     )
   }
